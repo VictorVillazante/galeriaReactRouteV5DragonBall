@@ -55,7 +55,7 @@ const SearchScreen = ({history}) => {
         <div className="input-group mb-3">
           <input value={inputValue} type="text" className="form-control" onChange={handleChange}/>
         </div>
-        <button type="submit" className="btn btn-primary">Primary</button>
+        <button type="submit" className="btn btn-primary">Buscar</button>
       </form>
       <h2>Resultados:{characters.length}</h2>
       {characters.length==0 &&(
